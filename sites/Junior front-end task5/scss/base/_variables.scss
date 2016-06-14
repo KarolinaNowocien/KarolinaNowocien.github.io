@@ -1,0 +1,16 @@
+$color1: #21212b;
+$color2: #22222b;
+$color3: #fff;
+$color4: #a2abbd;
+$color5: #edae61;
+$color6: #4d505c;
+$background: #262633;
+
+.accordion {
+    background: #30303b; 
+    background: -webkit-linear-gradient(#30303b, #282833); 
+    background: -o-linear-gradient(#30303b, #282833); 
+    background: -moz-linear-gradient(#30303b, #282833); 
+    background: linear-gradient(#30303b, #282833);
+    border-bottom: 0.1vh solid $color6; 
+}

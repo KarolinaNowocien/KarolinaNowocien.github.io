@@ -1,0 +1,35 @@
+.header{
+	width:100%;
+	background:$color5;
+	position:relative;
+	height:12.5vh;
+}
+
+.header__title{
+	text-align:center;
+	color:#fff;
+	font-size:3.45vh;
+	line-height:12.5vh;
+}
+
+
+.header__action{
+	color:#fff;
+	position:absolute;
+	top:4vh;
+	height:4vh;
+	width:4vh;
+	line-height:0px;
+	text-align:center;
+	cursor:pointer;
+}
+
+.header__action--chevron{
+	left:4vw;
+}
+
+		
+.header__action--power{
+	right:4vw;
+}	
+
