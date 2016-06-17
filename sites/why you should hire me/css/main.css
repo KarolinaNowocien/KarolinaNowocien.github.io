@@ -1,0 +1,190 @@
+@keyframes come-in {
+  /* line 2, ../scss/base/_mixins.scss */
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes leave {
+  /* line 6, ../scss/base/_mixins.scss */
+  to {
+    transform: translateX(-150);
+    opacity: 0;
+  }
+}
+
+/* line 3, ../scss/base/_reset.scss */
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* line 1, ../scss/base/_base.scss */
+section {
+  text-align: center;
+  background: #eee;
+  padding: 25vh 10%;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+  height: 100vh;
+}
+/* line 9, ../scss/base/_base.scss */
+section p {
+  color: black !important;
+  font-weight: 100;
+}
+/* line 13, ../scss/base/_base.scss */
+section.one {
+  background-color: #FFE62B;
+}
+/* line 16, ../scss/base/_base.scss */
+section.two {
+  background-color: #FFD319;
+}
+/* line 19, ../scss/base/_base.scss */
+section.three {
+  background-color: #FFCF00;
+}
+/* line 22, ../scss/base/_base.scss */
+section.four {
+  background-color: #FFBE19;
+}
+/* line 25, ../scss/base/_base.scss */
+section.five {
+  background-color: #FFB700;
+}
+/* line 28, ../scss/base/_base.scss */
+section.six {
+  background-color: #FFA719;
+}
+/* line 31, ../scss/base/_base.scss */
+section.seven {
+  background-color: #FF9E00;
+}
+/* line 34, ../scss/base/_base.scss */
+section.eight {
+  background-color: #FF871A;
+}
+/* line 37, ../scss/base/_base.scss */
+section.nine {
+  background-color: #FF7A00;
+}
+
+/* line 42, ../scss/base/_base.scss */
+.item {
+  width: 80%;
+  position: relative;
+  margin: 0 auto;
+  opacity: 0;
+}
+/* line 47, ../scss/base/_base.scss */
+.item:nth-child(even) {
+  margin-right: 0;
+}
+
+/* line 52, ../scss/base/_base.scss */
+.item__title--heading {
+  position: relative;
+  color: #d7b94c;
+  font-family: 'Fjalla One', sans-serif, monospace;
+  font-size: 6vw;
+  color: black !important;
+  font-weight: 100;
+  line-height: -10;
+}
+
+/* line 62, ../scss/base/_base.scss */
+.item__title--paragraph {
+  position: relative;
+  color: #d7b94c;
+  font-family: 'Lato', sans-serif;
+  font-size: 2vw;
+  color: black !important;
+  font-weight: 400;
+  line-height: 2;
+  width: 100%;
+}
+
+/* line 73, ../scss/base/_base.scss */
+.item__title--element {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background: #FFE62B;
+  width: 100%;
+  border-left: .08em solid transparent;
+}
+
+/* line 82, ../scss/base/_base.scss */
+.item__button {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  z-index: 2;
+  display: inline-block;
+  -webkit-transform: translate(0, -50%);
+  transform: translate(0, -50%);
+  color: #fff;
+  font: normal 400 20px/1 "Josefin Sans", sans-serif;
+  letter-spacing: .1em;
+  text-decoration: none;
+  transition: opacity .3s;
+  padding-top: 60px;
+}
+/* line 96, ../scss/base/_base.scss */
+.item__button:hover {
+  opacity: .5;
+}
+
+/* line 101, ../scss/base/_base.scss */
+.item__button--arrow {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  width: 24px;
+  height: 24px;
+  margin-left: -12px;
+  border-left: 1px solid #fff;
+  border-bottom: 1px solid #fff;
+}
+
+/* line 112, ../scss/base/_base.scss */
+.paragraph__big {
+  text-transform: uppercase;
+  font-size: 1.8vw;
+  font-weight: 800;
+}
+
+/* line 118, ../scss/base/_base.scss */
+.come-in {
+  transform: translateX(-150px);
+  animation: come-in 0.5s cubic-bezier(0, -0.01, 0, 0.99) forwards;
+}
+
+/* line 122, ../scss/base/_base.scss */
+.come-in:nth-child(odd) {
+  animation-delay: .1s;
+  animation-duration: .75s;
+}
+
+/* line 126, ../scss/base/_base.scss */
+.leave {
+  transform: translateX(150px);
+  animation: leave 0.5s cubic-bezier(0, -0.01, 0, 0.99) forwards;
+}
+
+/* line 130, ../scss/base/_base.scss */
+.leave:nth-child(odd) {
+  animation-delay: .1s;
+  animation-duration: .75s;
+}
+
+/* line 135, ../scss/base/_base.scss */
+.already-visible {
+  transform: translateY(0);
+  animation: none;
+  opacity: 1;
+}

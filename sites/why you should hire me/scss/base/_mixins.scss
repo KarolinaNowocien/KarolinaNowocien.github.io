@@ -1,0 +1,7 @@
+@keyframes come-in {
+  to { transform: translateX(0); opacity: 1;}
+}
+
+@keyframes leave {
+  to { transform: translateX(-150); opacity: 0;}
+}
