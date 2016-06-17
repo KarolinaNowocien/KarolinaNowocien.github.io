@@ -101,19 +101,19 @@ section.ten {
 
 /* line 64, ../scss/base/_base.scss */
 .item__title--subheading {
-  padding-bottom: 4vh;
+  padding-bottom: 2vh;
   border-bottom: solid 10px #ffd13d;
   position: relative;
   color: #d7b94c;
   font-family: 'Fjalla One', sans-serif, monospace;
-  font-size: 7vh;
+  font-size: 6vh;
   color: black !important;
   font-weight: 100;
 }
 
 /* line 76, ../scss/base/_base.scss */
 .item__title--paragraph {
-  position: relative;
+  position: absolute;
   color: #d7b94c;
   font-family: 'Lato', sans-serif;
   font-size: 3.5vh;
@@ -137,7 +137,7 @@ section.ten {
 /* line 97, ../scss/base/_base.scss */
 .item__button {
   position: absolute;
-  bottom: 20px;
+  bottom: 0;
   z-index: 2;
   display: inline-block;
   -webkit-transform: translate(0, -50%);
@@ -160,15 +160,15 @@ section.ten {
   top: 0;
   width: 24px;
   height: 24px;
-  margin-left: -12px;
   border-left: 3px solid #fff;
   border-bottom: 3px solid #fff;
 }
 
-/* line 125, ../scss/base/_base.scss */
+/* line 124, ../scss/base/_base.scss */
 .item__button--text {
   position: relative;
   right: 50%;
+  margin-left: 5vh;
 }
 
 /* line 130, ../scss/base/_base.scss */
