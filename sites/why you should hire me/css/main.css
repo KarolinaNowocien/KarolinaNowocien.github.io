@@ -38,48 +38,48 @@ section p {
 }
 /* line 13, ../scss/base/_base.scss */
 section.one {
-  background-color: #96ceb4;
+  background-color: #f7f7f7;
 }
 /* line 16, ../scss/base/_base.scss */
 section.two {
-  background-color: #ffcc5c;
+  background-color: #f7f7f7;
 }
 /* line 19, ../scss/base/_base.scss */
 section.three {
-  background-color: #ffcc5c;
+  background-color: #ffc436;
 }
 /* line 22, ../scss/base/_base.scss */
 section.four {
-  background-color: #ff6f69;
+  background-color: #ffb62f;
 }
 /* line 25, ../scss/base/_base.scss */
 section.five {
-  background-color: #ff6f69;
+  background-color: #ffa928;
 }
 /* line 28, ../scss/base/_base.scss */
 section.six {
-  background-color: #ff6f69;
+  background-color: #fe9a24;
 }
 /* line 31, ../scss/base/_base.scss */
 section.seven {
-  background-color: #ff6f69;
+  background-color: #fb8b29;
 }
 /* line 34, ../scss/base/_base.scss */
 section.eight {
-  background-color: #88d8b0;
+  background-color: #f77c2f;
 }
 /* line 37, ../scss/base/_base.scss */
 section.nine {
-  background-color: #88d8b0;
+  background-color: #f7f7f7;
 }
 /* line 40, ../scss/base/_base.scss */
 section.ten {
-  background-color: #88d8b0;
+  background-color: #f7f7f7;
 }
 
 /* line 45, ../scss/base/_base.scss */
 .item {
-  width: 85%;
+  width: 70%;
   position: relative;
   margin: 0 auto;
   opacity: 0;
@@ -92,37 +92,49 @@ section.ten {
 /* line 55, ../scss/base/_base.scss */
 .item__title--heading {
   position: relative;
-  color: #d7b94c;
   font-family: 'Fjalla One', sans-serif, monospace;
-  font-size: 6vw;
+  font-size: 9vh;
   color: black !important;
   font-weight: 100;
   line-height: -10;
 }
 
-/* line 65, ../scss/base/_base.scss */
+/* line 64, ../scss/base/_base.scss */
+.item__title--subheading {
+  padding-bottom: 4vh;
+  border-bottom: solid 10px #ffd13d;
+  position: relative;
+  color: #d7b94c;
+  font-family: 'Fjalla One', sans-serif, monospace;
+  font-size: 7vh;
+  color: black !important;
+  font-weight: 100;
+}
+
+/* line 76, ../scss/base/_base.scss */
 .item__title--paragraph {
   position: relative;
   color: #d7b94c;
   font-family: 'Lato', sans-serif;
-  font-size: 4vh;
+  font-size: 3.5vh;
   color: black !important;
   font-weight: 400;
-  line-height: 2;
+  line-height: 1.7;
   width: 100%;
 }
 
-/* line 76, ../scss/base/_base.scss */
+/* line 87, ../scss/base/_base.scss */
 .item__title--element {
   position: absolute;
   top: 0;
   right: 0;
-  background: #ffcc5c;
+  margin-right: 2vw;
+  background: #f7f7f7;
   width: 100%;
   border-left: .08em solid transparent;
 }
 
-/* line 85, ../scss/base/_base.scss */
+/* line 97, ../scss/base/_base.scss */
 .item__button {
   position: absolute;
   bottom: 20px;
@@ -130,67 +142,67 @@ section.ten {
   display: inline-block;
   -webkit-transform: translate(0, -50%);
   transform: translate(0, -50%);
-  color: #fff;
+  color: #000;
   font: normal 400 20px/1 "Josefin Sans", sans-serif;
   letter-spacing: .1em;
   text-decoration: none;
   transition: opacity .3s;
   padding-top: 60px;
 }
-/* line 98, ../scss/base/_base.scss */
+/* line 110, ../scss/base/_base.scss */
 .item__button:hover {
   opacity: .5;
 }
 
-/* line 103, ../scss/base/_base.scss */
+/* line 115, ../scss/base/_base.scss */
 .item__button--arrow {
   position: absolute;
   top: 0;
   width: 24px;
   height: 24px;
   margin-left: -12px;
-  border-left: 1px solid #fff;
-  border-bottom: 1px solid #fff;
+  border-left: 3px solid #fff;
+  border-bottom: 3px solid #fff;
 }
 
-/* line 113, ../scss/base/_base.scss */
+/* line 125, ../scss/base/_base.scss */
 .item__button--text {
   position: relative;
   right: 50%;
 }
 
-/* line 118, ../scss/base/_base.scss */
+/* line 130, ../scss/base/_base.scss */
 .paragraph__big {
   text-transform: uppercase;
   font-size: 3.2vh;
   font-weight: 800;
 }
 
-/* line 124, ../scss/base/_base.scss */
+/* line 136, ../scss/base/_base.scss */
 .come-in {
   transform: translateX(-150px);
   animation: come-in 0.5s cubic-bezier(0, -0.01, 0, 0.99) forwards;
 }
 
-/* line 128, ../scss/base/_base.scss */
+/* line 140, ../scss/base/_base.scss */
 .come-in:nth-child(odd) {
   animation-delay: .1s;
   animation-duration: .75s;
 }
 
-/* line 132, ../scss/base/_base.scss */
+/* line 144, ../scss/base/_base.scss */
 .leave {
   transform: translateX(150px);
   animation: leave 0.5s cubic-bezier(0, -0.01, 0, 0.99) forwards;
 }
 
-/* line 136, ../scss/base/_base.scss */
+/* line 148, ../scss/base/_base.scss */
 .leave:nth-child(odd) {
   animation-delay: .1s;
   animation-duration: .75s;
 }
 
-/* line 141, ../scss/base/_base.scss */
+/* line 153, ../scss/base/_base.scss */
 .already-visible {
   transform: translateY(0);
   animation: none;
