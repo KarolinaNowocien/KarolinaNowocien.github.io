@@ -72,20 +72,24 @@ section.eight {
 section.nine {
   background-color: #FF7A00;
 }
+/* line 40, ../scss/base/_base.scss */
+section.ten {
+  background-color: #DD6A00;
+}
 
-/* line 42, ../scss/base/_base.scss */
+/* line 45, ../scss/base/_base.scss */
 .item {
   width: 80%;
   position: relative;
   margin: 0 auto;
   opacity: 0;
 }
-/* line 47, ../scss/base/_base.scss */
+/* line 50, ../scss/base/_base.scss */
 .item:nth-child(even) {
   margin-right: 0;
 }
 
-/* line 52, ../scss/base/_base.scss */
+/* line 55, ../scss/base/_base.scss */
 .item__title--heading {
   position: relative;
   color: #d7b94c;
@@ -96,7 +100,7 @@ section.nine {
   line-height: -10;
 }
 
-/* line 62, ../scss/base/_base.scss */
+/* line 65, ../scss/base/_base.scss */
 .item__title--paragraph {
   position: relative;
   color: #d7b94c;
@@ -108,7 +112,7 @@ section.nine {
   width: 100%;
 }
 
-/* line 73, ../scss/base/_base.scss */
+/* line 76, ../scss/base/_base.scss */
 .item__title--element {
   position: absolute;
   top: 0;
@@ -118,7 +122,7 @@ section.nine {
   border-left: .08em solid transparent;
 }
 
-/* line 82, ../scss/base/_base.scss */
+/* line 85, ../scss/base/_base.scss */
 .item__button {
   position: absolute;
   bottom: 20px;
@@ -134,12 +138,12 @@ section.nine {
   transition: opacity .3s;
   padding-top: 60px;
 }
-/* line 96, ../scss/base/_base.scss */
+/* line 99, ../scss/base/_base.scss */
 .item__button:hover {
   opacity: .5;
 }
 
-/* line 101, ../scss/base/_base.scss */
+/* line 104, ../scss/base/_base.scss */
 .item__button--arrow {
   position: absolute;
   top: 0;
@@ -151,38 +155,38 @@ section.nine {
   border-bottom: 1px solid #fff;
 }
 
-/* line 112, ../scss/base/_base.scss */
+/* line 115, ../scss/base/_base.scss */
 .paragraph__big {
   text-transform: uppercase;
   font-size: 1.8vw;
   font-weight: 800;
 }
 
-/* line 118, ../scss/base/_base.scss */
+/* line 121, ../scss/base/_base.scss */
 .come-in {
   transform: translateX(-150px);
   animation: come-in 0.5s cubic-bezier(0, -0.01, 0, 0.99) forwards;
 }
 
-/* line 122, ../scss/base/_base.scss */
+/* line 125, ../scss/base/_base.scss */
 .come-in:nth-child(odd) {
   animation-delay: .1s;
   animation-duration: .75s;
 }
 
-/* line 126, ../scss/base/_base.scss */
+/* line 129, ../scss/base/_base.scss */
 .leave {
   transform: translateX(150px);
   animation: leave 0.5s cubic-bezier(0, -0.01, 0, 0.99) forwards;
 }
 
-/* line 130, ../scss/base/_base.scss */
+/* line 133, ../scss/base/_base.scss */
 .leave:nth-child(odd) {
   animation-delay: .1s;
   animation-duration: .75s;
 }
 
-/* line 135, ../scss/base/_base.scss */
+/* line 138, ../scss/base/_base.scss */
 .already-visible {
   transform: translateY(0);
   animation: none;
