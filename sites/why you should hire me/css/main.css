@@ -25,7 +25,7 @@
 section {
   text-align: center;
   background: #eee;
-  padding: 25vh 10%;
+  padding: 12vw 10%;
   overflow: hidden;
   position: relative;
   width: 100%;
@@ -38,48 +38,48 @@ section p {
 }
 /* line 13, ../scss/base/_base.scss */
 section.one {
-  background-color: #FFE62B;
+  background-color: #96ceb4;
 }
 /* line 16, ../scss/base/_base.scss */
 section.two {
-  background-color: #FFD319;
+  background-color: #ffcc5c;
 }
 /* line 19, ../scss/base/_base.scss */
 section.three {
-  background-color: #FFCF00;
+  background-color: #ffcc5c;
 }
 /* line 22, ../scss/base/_base.scss */
 section.four {
-  background-color: #FFBE19;
+  background-color: #ff6f69;
 }
 /* line 25, ../scss/base/_base.scss */
 section.five {
-  background-color: #FFB700;
+  background-color: #ff6f69;
 }
 /* line 28, ../scss/base/_base.scss */
 section.six {
-  background-color: #FFA719;
+  background-color: #ff6f69;
 }
 /* line 31, ../scss/base/_base.scss */
 section.seven {
-  background-color: #FF9E00;
+  background-color: #ff6f69;
 }
 /* line 34, ../scss/base/_base.scss */
 section.eight {
-  background-color: #FF871A;
+  background-color: #88d8b0;
 }
 /* line 37, ../scss/base/_base.scss */
 section.nine {
-  background-color: #FF7A00;
+  background-color: #88d8b0;
 }
 /* line 40, ../scss/base/_base.scss */
 section.ten {
-  background-color: #DD6A00;
+  background-color: #88d8b0;
 }
 
 /* line 45, ../scss/base/_base.scss */
 .item {
-  width: 80%;
+  width: 85%;
   position: relative;
   margin: 0 auto;
   opacity: 0;
@@ -105,7 +105,7 @@ section.ten {
   position: relative;
   color: #d7b94c;
   font-family: 'Lato', sans-serif;
-  font-size: 2vw;
+  font-size: 4vh;
   color: black !important;
   font-weight: 400;
   line-height: 2;
@@ -117,7 +117,7 @@ section.ten {
   position: absolute;
   top: 0;
   right: 0;
-  background: #FFE62B;
+  background: #ffcc5c;
   width: 100%;
   border-left: .08em solid transparent;
 }
@@ -126,7 +126,6 @@ section.ten {
 .item__button {
   position: absolute;
   bottom: 20px;
-  left: 50%;
   z-index: 2;
   display: inline-block;
   -webkit-transform: translate(0, -50%);
@@ -138,16 +137,15 @@ section.ten {
   transition: opacity .3s;
   padding-top: 60px;
 }
-/* line 99, ../scss/base/_base.scss */
+/* line 98, ../scss/base/_base.scss */
 .item__button:hover {
   opacity: .5;
 }
 
-/* line 104, ../scss/base/_base.scss */
+/* line 103, ../scss/base/_base.scss */
 .item__button--arrow {
   position: absolute;
   top: 0;
-  left: 50%;
   width: 24px;
   height: 24px;
   margin-left: -12px;
@@ -155,38 +153,44 @@ section.ten {
   border-bottom: 1px solid #fff;
 }
 
-/* line 115, ../scss/base/_base.scss */
+/* line 113, ../scss/base/_base.scss */
+.item__button--text {
+  position: relative;
+  right: 50%;
+}
+
+/* line 118, ../scss/base/_base.scss */
 .paragraph__big {
   text-transform: uppercase;
-  font-size: 1.8vw;
+  font-size: 3.2vh;
   font-weight: 800;
 }
 
-/* line 121, ../scss/base/_base.scss */
+/* line 124, ../scss/base/_base.scss */
 .come-in {
   transform: translateX(-150px);
   animation: come-in 0.5s cubic-bezier(0, -0.01, 0, 0.99) forwards;
 }
 
-/* line 125, ../scss/base/_base.scss */
+/* line 128, ../scss/base/_base.scss */
 .come-in:nth-child(odd) {
   animation-delay: .1s;
   animation-duration: .75s;
 }
 
-/* line 129, ../scss/base/_base.scss */
+/* line 132, ../scss/base/_base.scss */
 .leave {
   transform: translateX(150px);
   animation: leave 0.5s cubic-bezier(0, -0.01, 0, 0.99) forwards;
 }
 
-/* line 133, ../scss/base/_base.scss */
+/* line 136, ../scss/base/_base.scss */
 .leave:nth-child(odd) {
   animation-delay: .1s;
   animation-duration: .75s;
 }
 
-/* line 138, ../scss/base/_base.scss */
+/* line 141, ../scss/base/_base.scss */
 .already-visible {
   transform: translateY(0);
   animation: none;
